@@ -4,7 +4,7 @@ extern _printf
 extern _exit
 
 section .data
-    n dq 2                                           ; input value for Fibonacci(n)
+    n dq 8                                           ; input value for Fibonacci(n)
     print_fib db "Fibonacci(%d) = %d", 10, 0         ; format string for printf
 
 section .text
